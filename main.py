@@ -9,3 +9,4 @@ if __name__ == '__main__':
     grammar_table = table_generator.generate_grammar_table('grammar.txt')
 
     syntax_analyzer.slr_parse(input_file.readlines(), action_table, goto_table, grammar_table)
+    

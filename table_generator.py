@@ -6,10 +6,10 @@ def generate_lr_table(file_dir):
     }
 
     goto_table = {
-    'header': [],
-    'elements': []
+        'header': [],
+        'elements': []
     }
-
+    
     with open(file_dir) as file:
         headers = file.readline().rstrip().split('\t')
         goto_idx = headers.index('$') + 1 # goto table's start index
@@ -24,7 +24,9 @@ def generate_lr_table(file_dir):
             action_table['elements'].append(row[:goto_idx])
             goto_table['elements'].append(row[goto_idx:])
 
+
     return action_table, goto_table
+
 
 
 def generate_grammar_table(file_dir):
@@ -36,5 +38,5 @@ def generate_grammar_table(file_dir):
                 'left': row[0], # LHS
                 'right': None if row[2] == "''" else row[2:] # RHS
             })
-
+    
     return grammar_table
