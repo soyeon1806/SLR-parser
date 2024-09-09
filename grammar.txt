@@ -5,7 +5,7 @@ CODE -> ''
 VDECL -> vtype id semi
 VDECL -> vtype ASSIGN semi
 ASSIGN -> id assign RHS
-RHS ->EXPR
+RHS -> EXPR
 RHS -> literal
 RHS -> character
 RHS -> boolstr
