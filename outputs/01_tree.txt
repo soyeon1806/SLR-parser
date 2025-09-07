@@ -1,0 +1,24 @@
+ACCEPTED
+CODE
+├── VDECL
+│   ├── vtype
+│   ├── ASSIGN
+│   │   ├── id
+│   │   ├── assign
+│   │   └── RHS
+│   │       └── EXPR
+│   │           ├── EXPR
+│   │           │   └── TERM
+│   │           │       └── FACTOR
+│   │           │           └── id
+│   │           ├── addsub
+│   │           └── TERM
+│   │               ├── TERM
+│   │               │   └── FACTOR
+│   │               │       └── num
+│   │               ├── multdiv
+│   │               └── FACTOR
+│   │                   └── num
+│   └── semi
+└── CODE
+    └── ε
