@@ -1,0 +1,5 @@
+REJECTED
+Error at line 6:
+    vtype id assign literal semi literal
+                                 ^^^^^^^
+SyntaxError: invalid syntax
