@@ -26,8 +26,10 @@ SLR-parser/
    ```
 3) 출력
    (결과는 `outputs/01_tree.txt`에 저장됩니다.)
+
 <br><br>
 
 ## 📊 SLR Parsing Table
 본 프로젝트에서 사용한 SLR(1) 파싱 테이블은 아래와 같습니다.
-![LR Table](SLR_parsing_table.JPG)
+<br><br>
+![LR Table](images/SLR_parsing_table.JPG)
